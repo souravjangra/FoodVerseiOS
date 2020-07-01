@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  FoodVerse
 //
 //  Created by Sourav Jangra on 01/07/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UINavigationController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CollectionViewCell : UICollectionViewCell
 
 @end
 
+NS_ASSUME_NONNULL_END

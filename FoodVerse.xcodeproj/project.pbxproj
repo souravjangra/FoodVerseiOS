@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141DFC144746BEE5FDE7DB39 /* Pods_FoodVerse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93004FF6924DA634FF99A3DF /* Pods_FoodVerse.framework */; };
 		2267B32624ACB861009827E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B32524ACB861009827E5 /* AppDelegate.m */; };
 		2267B32924ACB861009827E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B32824ACB861009827E5 /* SceneDelegate.m */; };
 		2267B32C24ACB861009827E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B32B24ACB861009827E5 /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		2267B33124ACB867009827E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2267B33024ACB867009827E5 /* Assets.xcassets */; };
 		2267B33424ACB867009827E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2267B33224ACB867009827E5 /* LaunchScreen.storyboard */; };
 		2267B33724ACB867009827E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B33624ACB867009827E5 /* main.m */; };
+		2267B33F24ACBAEE009827E5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B33E24ACBAEE009827E5 /* HomeViewController.m */; };
+		2267B34224ACCABC009827E5 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2267B34124ACCABC009827E5 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,13 @@
 		2267B33324ACB867009827E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2267B33524ACB867009827E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2267B33624ACB867009827E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2267B33D24ACBAEE009827E5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2267B33E24ACBAEE009827E5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2267B34024ACCABC009827E5 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2267B34124ACCABC009827E5 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		93004FF6924DA634FF99A3DF /* Pods_FoodVerse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodVerse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55CA7D1080BCCA21441AADF /* Pods-FoodVerse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodVerse.debug.xcconfig"; path = "Target Support Files/Pods-FoodVerse/Pods-FoodVerse.debug.xcconfig"; sourceTree = "<group>"; };
+		D590579E083098C3E10DAD97 /* Pods-FoodVerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodVerse.release.xcconfig"; path = "Target Support Files/Pods-FoodVerse/Pods-FoodVerse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141DFC144746BEE5FDE7DB39 /* Pods_FoodVerse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +58,8 @@
 			children = (
 				2267B32324ACB861009827E5 /* FoodVerse */,
 				2267B32224ACB861009827E5 /* Products */,
+				B87F8C1A8D701BB5BE624DF3 /* Pods */,
+				FB6B46F89D9E3B64443E00F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +85,30 @@
 				2267B33224ACB867009827E5 /* LaunchScreen.storyboard */,
 				2267B33524ACB867009827E5 /* Info.plist */,
 				2267B33624ACB867009827E5 /* main.m */,
+				2267B33D24ACBAEE009827E5 /* HomeViewController.h */,
+				2267B33E24ACBAEE009827E5 /* HomeViewController.m */,
+				2267B34024ACCABC009827E5 /* CollectionViewCell.h */,
+				2267B34124ACCABC009827E5 /* CollectionViewCell.m */,
 			);
 			path = FoodVerse;
+			sourceTree = "<group>";
+		};
+		B87F8C1A8D701BB5BE624DF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D55CA7D1080BCCA21441AADF /* Pods-FoodVerse.debug.xcconfig */,
+				D590579E083098C3E10DAD97 /* Pods-FoodVerse.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB6B46F89D9E3B64443E00F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93004FF6924DA634FF99A3DF /* Pods_FoodVerse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2267B33A24ACB867009827E5 /* Build configuration list for PBXNativeTarget "FoodVerse" */;
 			buildPhases = (
+				FBDD9553FAFD641F81CC0B79 /* [CP] Check Pods Manifest.lock */,
 				2267B31D24ACB861009827E5 /* Sources */,
 				2267B31E24ACB861009827E5 /* Frameworks */,
 				2267B31F24ACB861009827E5 /* Resources */,
+				82574D7980DD26FA401AFA5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +178,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82574D7980DD26FA401AFA5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodVerse/Pods-FoodVerse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodVerse/Pods-FoodVerse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodVerse/Pods-FoodVerse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDD9553FAFD641F81CC0B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodVerse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2267B31D24ACB861009827E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2267B34224ACCABC009827E5 /* CollectionViewCell.m in Sources */,
 				2267B32C24ACB861009827E5 /* ViewController.m in Sources */,
 				2267B32624ACB861009827E5 /* AppDelegate.m in Sources */,
 				2267B33724ACB867009827E5 /* main.m in Sources */,
+				2267B33F24ACBAEE009827E5 /* HomeViewController.m in Sources */,
 				2267B32924ACB861009827E5 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +368,7 @@
 		};
 		2267B33B24ACB867009827E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55CA7D1080BCCA21441AADF /* Pods-FoodVerse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +385,7 @@
 		};
 		2267B33C24ACB867009827E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D590579E083098C3E10DAD97 /* Pods-FoodVerse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
